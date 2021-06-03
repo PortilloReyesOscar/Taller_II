@@ -1,0 +1,43 @@
+
+body{
+    
+    background-image: url(../Imagenes/background.jpg);
+    background-color: black !important;
+    background-attachment: fixed;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    
+}
+
+div.Mensaje-bienvenida
+{
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    display: block;
+    margin-top: 250px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgba(0, 0,0, 0.6);
+}
+
+div.Mensaje-bienvenida>p{
+    font-size:25px;
+}
+
+.bg-black
+{
+    background-color: transparent !important;
+}
+
+body>a{
+    color: white;
+}
+
+#barra-nav>a:hover
+{
+    color: white !important;
+}
+

@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <!--Font awesome-->
+    <link rel="stylesheet" href="https://use.fontawesome.com/7f34c2afac.css">
+    <script src="https://use.fontawesome.com/8b1e40fc00.js"></script>
+    <link href="./CSS/modulogenerico.css" rel="stylesheet">
+    <title>Estructura de un documento HTML</title>
+</head>
+<body>
+<!--Barra de nav  inicia-->
+<nav class="navbar navbar-expand-lg navbar-dark bg-black" id=barra-nav>
+    <a class="navbar-brand" href="#">AWASWEBS</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+  
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item ">
+          <a class="nav-link" href="index.html">Principal</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link " href="Modulo1_Historia.html">MODULO 1 INTRODUCCIÓN <i class="fa fa-play-circle"></i></a>
+        </li>
+        <li class="nav-item active">
+            <a class="nav-link " href="Modulo2_QueHTML.html">MODULO 2 HTML  <i class="fa fa-code"></i></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="Modulo3_QueEsCss.html">MODULO 3 CSS <i class="fa fa-css3"></i>   </a>
+          </li>
+        <li class="nav-item">
+          <a class="nav-link " href="acercade.html">Acerca de...</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+<!--Barra de nav  termina-->   
+
+<main>
+
+    <div class="sidebar">
+     <h2>Temas del modulo</h2>
+     <ul>
+         <li><a href="Modulo2_QueHTML.html">¿Qué es HTML?</a></li>
+         <li><a href="Modulo2_EstructuraHTML.html">Estructura de un documento HTML</a></li>
+         <li><a href="Modulo2_EtiquetasFundamentales.html">Etiquetas fundamentales</a></li>
+         <li><a href="Modulo2_BuenasPracticas.html"> Buenas prácticas con HTML</a></li>
+         <li><a href="Modulo2_DondeAprender.html">¿Dónde puedo conocer aún más?</a></li>
+     </ul>
+     
+    </div>
+    
+    <div class="contenido">
+        <button type="button" class="btn btn-dark menu-bar">Ocultar/Mostrar indice del modulo</button>
+        <br>
+        <br>
+     <h2>ESTRUCTURA DE UN DOCUMENTO HTML</h2>
+     <h3>Elementos:</h3>
+     <p>Es importante mencionar que cuando se escribe un documento html se hace uso de elementos, los cuales se utilizan para señalar el orden en el que queremos que un contenido especifico aparezca en una pagina web estática.</p>
+     <br>
+     <br>
+     <span>Por ejemplo:</span>
+     <br>
+     <br>
+     <img class="img-fluid mx-auto d-block" src="./Imagenes/EjemploDeElementos.png" href="ejemplo de elemento" width="1000px" height="50px">
+     <br>
+     <br>
+     <p>El elemento HTML es todo, desde la etiqueta inicial hasta la etiqueta final, como se puede observar a continuación:</p>
+     <img src="./Imagenes/EjemploEle.png" class="img-fluid mx-auto d-block">
+     <br>
+     <br>
+     <p>Al momento de querer escribir un documento html debemos de seguir ciertas normas, a continuación se presenta un ejemplo de la estructura basica que todo documento HTML debe de tener:</p>
+     <img class="img-fluid mx-auto d-block" src="./Imagenes/Estructura_Html.png" alt="Estructura de un documento html" width="1000px" height="650px">
+     <br>
+     <br>
+     <div class="siguiente">
+     <a class="btn btn-light" href="Modulo2_EtiquetasFundamentales.html">Siguiente <i class="fa fa-arrow-circle-right"></i></a>     
+    </div>
+    </div>
+ </main>
+ <style>
+     p{
+     font-size: larger;  
+     }
+ </style>
+ <!--Scripts de bootstrap-->
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+<!--Mis scripts-->
+<script src="./JavaScripts/modulog.js"></script>
+</body>
+</html>
+

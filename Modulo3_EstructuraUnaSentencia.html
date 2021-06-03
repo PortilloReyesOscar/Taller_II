@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <!--Font awesome-->
+    <link rel="stylesheet" href="https://use.fontawesome.com/7f34c2afac.css">
+    <link href="./CSS/modulogenerico.css" rel="stylesheet">
+    <title>Estructura de una sentencia de CSS</title>
+</head>
+<body>
+<!--Barra de nav  inicia-->
+<nav class="navbar navbar-expand-lg navbar-dark bg-black" id=barra-nav>
+    <a class="navbar-brand" href="#">AWASWEBS</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+  
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item ">
+          <a class="nav-link" href="index.html">Principal</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="Modulo1_Historia.html">MODULO 1 INTRODUCCIÓN <i class="fa fa-play-circle"></i> </a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="Modulo2_QueHTML.html">MODULO 2 HTML <i class="fa fa-code"></i> </a>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link" href="Modulo3_QueEsCss.html">MODULO 3 CSS <i class="fa fa-css3"></i> </a>
+          </li>
+        <li class="nav-item">
+          <a class="nav-link " href="acercade.html">Acerca de...</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+<!--Barra de nav  termina-->   
+
+<main>
+
+    <div class="sidebar">
+     <h2>Temas del modulo</h2>
+     <ul>
+         <li><a href="Modulo3_QueEsCss.html">¿Qué es CSS?</a></li>
+         <li><a href="Modulo3_EstructuraUnaSentencia.html">Estructura de una sentencia de CSS</a></li>
+         <li><a href="Modulo3_SelectoresFundamentales.html">Selectores fundamentales</a></li>
+         <li><a href="Modulo3_BuenasPracticasCSS.html">Buenas practicas con CSS</a></li>
+         <li><a href="Modulo3_DondeConocerMas.html">¿Dónde puedo conocer aún más?</a></li>
+     </ul>
+     
+    </div>
+    
+    <div class="contenido">
+        <button type="button" class="btn btn-dark menu-bar">Ocultar/Mostrar indice del modulo</button>
+        <br>
+        <br>
+     <h2>ESTRUCTURA DE UNA SENTENCIA EN CSS</h2>
+     <br>
+     
+     <h3>A continuación se presenta un ejemplo de la estructura que un selector de CSS tiene :</h3>
+     
+     <br>
+     <br>
+      <img src="./Imagenes/img_selector.png" class="d-block mx-auto img-fluid">
+     <br>
+     <br>
+     <p>El selector apunta al elemento HTML al que desea aplicar estilo.</p>
+     <p>El bloque de declaración (declaration) contiene una o más declaraciones separadas por punto y coma.</p>
+     <p>Cada declaración incluye un nombre de propiedad CSS (property) y un valor, separados por dos puntos.</p>
+     <p>Varias declaraciones CSS se separan con punto y coma y los bloques de declaración están rodeados por llaves.</p>
+     <br>
+     <br>
+     <h6>Ejemplo:</h6>
+    <img src="./Imagenes/ejemploCSS.png" class="img-fluid mx-auto d-block">
+    <br>
+    <br>
+    <p>Ejemplo explicado:</p>
+    <ul>
+        <li><span style="color: red;">p</span>  es un selector en CSS (apunta al elemento HTML que desea aplicar estilo: <span><</span>p>).</li>
+        <li><span style="color:red">color</span> es una propiedad y <span style="color:red">red</span> es el valor de la propiedad</li>
+        <li><span style="color:red">text-align</span>es una propiedad y <span style="color:red">center</span>es el valor de la propiedad</li>
+    </ul>
+    <h4>En el siguiente video se te explica de forma sencilla la sintaxis básica de CSS:</h4>
+    <div class="iframe-container">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/KQDzp5lHLD0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
+    <br>
+    <br>
+     <div class="siguiente"> 
+        <a class="btn btn-light" href="Modulo3_SelectoresFundamentales.html">Siguiente <i class="fa fa-arrow-circle-right"></i></a>     
+     </div>
+       <br>
+       <br>
+      
+    </div>
+ </main>
+
+
+
+
+
+
+
+
+<!--Scripts de bootstrap-->
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+<!--Mis scripts-->
+<script src="./JavaScripts/modulog.js"></script>
+</body>
+</html>
